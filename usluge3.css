@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 14px;
+}
+nav a:hover {
+    color: rgb(70, 103, 105);
+}
+
+.container {
+  
+    padding: 50px 0;
+    margin-bottom: 0;
+    background: #afafaf;
+    text-align: center;
+  
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+
+.usluga-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.usluga-card {
+    background-color: rgb(70, 103, 105);
+    padding: 15px;
+    border: 1px solid #333;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+
+.usluga-card:hover {
+    transform: translateY(-5px);
+    border-color: #555;
+}
+
+.usluga-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.usluga-card p {
+    color: #919191;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 0; 
+}
